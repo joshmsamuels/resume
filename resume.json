@@ -1,0 +1,208 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Joshua Samuels",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "joshmsamuels@gmail.com",
+    "phone": "(647) 457-5674",
+    "url": "https://joshmsamuels.ca",
+    "summary": "I am a backend software developer from Toronto Ontario",
+    "location": {
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "joshmsamuels",
+        "url": "https://github.com/joshmsamuels"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "joshmsamuels",
+        "url": "https://www.linkedin.com/in/joshmsamuels"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Cash App by Block",
+      "location": "Remote",
+      "description": "Cash App is the easiest way to send, spend, bank, and invest",
+      "position": "Software Engineer",
+      "url": "https://cash.app",
+      "startDate": "2021-05",
+      "summary": "Building Cash App Pay risk from the ground up",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Taplytics",
+      "location": "Remote",
+      "description": "Modern A/B Testing Platform for Product and Marketing Teams",
+      "position": "Full Stack Intern",
+      "url": "https://taplytics.com",
+      "startDate": "2020-05",
+      "endDate": "2020-08",
+      "summary": "Built features and fixed bugs in our web and mobile SDKs",
+      "highlights": [
+        "Refactored, modularized, and added features to our Cloudflare workers that process close to 250 million requests per day with NodeJS",
+        "Added variation sharing and extension messages to our feature flags Chrome extension in ReactJS",
+        "Improved Cloudflare Worker infrastructure by creating CI pipelines and helping create a release schedule"
+      ]
+    },
+    {
+      "name": "Cash App by Block",
+      "location": "Kitchener, ON",
+      "description": "Cash App is the easiest way to send, spend, bank, and invest",
+      "position": "iOS Engineering Intern",
+      "url": "https://cash.app",
+      "startDate": "2020-01",
+      "endDate": "2020-04",
+      "summary": "Building Lending iOS from a prototype to a production-ready product",
+      "highlights": [
+        "",
+        "Assisted in the refactoring and removal of legacy code into modules",
+        "Built an app message prompting users to link additional aliases to their Cash accounts which reduced support cases by upwards of 2%"
+      ]
+    },
+    {
+      "name": "Block (formerly Square)",
+      "location": "San Francisco, CA",
+      "description": "An American financial services and digital payments company",
+      "position": "Software Engineering Intern - Deploy",
+      "url": "https://squareup.com",
+      "startDate": "2019-05",
+      "endDate": "2019-09",
+      "summary": "Built tooling to assist in the block-wide migration to Kubernetes",
+      "highlights": [
+        "Led the development of a Kubernetes Configuration Management (kube config mgmt) service in Go",
+        "Collaborated with internal teams including legal and security to improve kube config mgmt and start the open-source process",
+        "Created a CI flow to securely validate and store Kubernetes manifests in AWS S3 buckets",
+        "Designed a Go application to detect calls to the CentOS OOM (out of memory) killer to notify application owners if their service was killed"
+      ]
+    },
+    {
+      "name": "University of Guelph",
+      "location": "Guelph, ON",
+      "description": "The University of Guelph is a comprehensive public research university in Guelph, Ontario, Canada",
+      "position": "Undergraduate Research Assistant",
+      "url": "http://www.uoguelph.ca",
+      "startDate": "2018-09",
+      "endDate": "2019-04",
+      "summary": "Led the development of an API to track health and weather patterns in the circumpolar north with NodeJS",
+      "highlights": [
+        "",
+        "Refactored unit tests to improve readability and configurability with Mocha"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Guelph",
+      "url": "https://www.uoguelph.ca/",
+      "area": "Bachelor of Computing in Software Engineering",
+      "minor": "Business Administration",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "score": "3.7",
+      "courses": [
+        "CIS4030 - Mobile Computing",
+        "CIS3210 - Computer Networks",
+        "CIS3090 - Parallel Programming",
+        "CIS4250 - Software Design V",
+        "MCS3000 - Advanced Marketing",
+        "HROB2010 - Foundations of Leadership",
+        "MGMT3020 - Corporate Social Responsibility"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Kotlin",
+        "Go",
+        "SQL",
+        "Hibernate",
+        "Aurora"
+      ]
+    },
+    {
+      "name": "Serverless Computing",
+      "level": "Intermediate",
+      "keywords": [
+        "Node",
+        "Cloudflare Workers",
+        "DynamoDB",
+        "npm",
+        "Jest"
+      ]
+
+    },
+    {
+      "name": "Web Development",
+      "level": "Beginner",
+      "keywords": [
+        "ReactJS",
+        "Jest",
+        "npm"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Beginner",
+      "keywords": [
+        "Swift",
+        "Snapshot Testing"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hockey",
+      "keywords": [
+        "Toronto Maple Leafs"
+      ]
+    },
+    {
+      "name": "Coffee",
+      "keywords": [
+        "Brewing",
+        "Tasting"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Kubernetes",
+      "description": "Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.",
+      "highlights": [
+        "Migrating apply functionality to the Kubeernetes API"
+      ],
+      "keywords": [
+        "Kubernetes",
+        "Open Source",
+        "k8s"
+      ],
+      "startDate": "2019-12",
+      "endDate": "2019-06",
+      "url": "https://kubernetes.io",
+      "roles": [
+        "Open Source Contribut0r"
+      ],
+      "entity": "Cloud Native Computing Foundation",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2021-12-18"
+  }
+}
