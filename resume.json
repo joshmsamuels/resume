@@ -1,0 +1,142 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Joshua Samuels",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "joshmsamuels@gmail.com",
+    "phone": "(647) 457-5674",
+    "url": "https://joshmsamuels.ca",
+    "summary": "I am a backend software developer from Toronto Ontario.",
+    "location": {
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "joshmsamuels",
+        "url": "https://github.com/joshmsamuels"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "joshmsamuels",
+        "url": "https://www.linkedin.com/in/joshmsamuels"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Cash App",
+      "location": "Toronto, ON",
+      "description": "Payments App",
+      "position": "Software Engineer",
+      "url": "https://cash.app",
+      "startDate": "2021-05",
+      "summary": "Cash App is the easiest way to send, spend, bank, and invest.",
+      "highlights": [
+        "Building Cash App Pay"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Guelph",
+      "url": "https://www.uoguelph.ca/",
+      "area": "Bachelor of Computing in Software Engineering",
+      "minor": "Business Administration",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "score": "3.7",
+      "courses": [
+        "CIS4030 - Mobile Computing",
+        "CIS3210 - Computer Networks",
+        "CIS3090 - Parallel Programming"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Developer",
+      "level": "Intermediate",
+      "keywords": [
+        "Kotlin",
+        "SQL",
+        "Hibernate",
+        "Aurora"
+      ]
+    },
+    {
+      "name": "Serverless Computing",
+      "level": "Intermediate",
+      "keywords": [
+        "NodeJS",
+        "Cloudflare Workers",
+        "DynamoDB",
+        "npm"
+      ]
+
+    },
+    {
+      "name": "Web Developer",
+      "level": "Beginner",
+      "keywords": [
+        "ReactJS",
+        "Jest",
+        "npm"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Beginner",
+      "keywords": [
+        "Swift"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hockey",
+      "keywords": [
+        "Toronto Maple Leafs"
+      ]
+    },
+    {
+      "name": "Coffee",
+      "keywords": [
+        "Brewing",
+        "Tasting"
+      ]
+    }
+
+  ],
+  "projects": [
+    {
+      "name": "Kubernetes",
+      "description": "Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.",
+      "highlights": [
+        "Migrating apply functionality to the Kubeernetes API"
+      ],
+      "keywords": [
+        "Kubernetes",
+        "Open Source",
+        "k8s"
+      ],
+      "startDate": "2019-12",
+      "endDate": "2019-06",
+      "url": "https://kubernetes.io",
+      "roles": [
+        "Open Source Contribut0r"
+      ],
+      "entity": "Cloud Native Computing Foundation",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2021-12-18"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "jsonresume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "resume:init": "resume init",
+    "resume:validate": "resume validate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "resume-cli": "^3.0.5"
+  },
+  "devDependencies": {},
+  "description": ""
+}
