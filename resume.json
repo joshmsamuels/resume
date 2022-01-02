@@ -107,8 +107,8 @@
       "area": "Bachelor of Computing in Software Engineering",
       "minor": "Business Administration",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
+      "startDate": "2016-09",
+      "endDate": "2021-04",
       "score": "3.7",
       "courses": [
         "CIS4030 - Mobile Computing",
@@ -128,20 +128,30 @@
       "keywords": [
         "Kotlin",
         "Go",
+        "Javascript/NodeJS",
         "SQL",
         "Hibernate",
-        "Aurora"
+        "Aurora",
+        "Unix",
+        "Bash",
+        "Git",
+        "Docker"
       ]
     },
     {
       "name": "Serverless Computing",
       "level": "Intermediate",
       "keywords": [
-        "Node",
+        "Javascript/NodeJS",
         "Cloudflare Workers",
         "DynamoDB",
         "npm",
-        "Jest"
+        "Jest",
+        "Unix",
+        "Bash",
+        "Git",
+        "Yarn",
+        "Lerna"
       ]
 
     },
@@ -151,7 +161,12 @@
       "keywords": [
         "ReactJS",
         "Jest",
-        "npm"
+        "npm",
+        "Unix",
+        "Bash",
+        "Git",
+        "Yarn",
+        "Lerna"
       ]
     },
     {
